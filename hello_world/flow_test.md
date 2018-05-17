@@ -17,7 +17,7 @@ cond5=>condition: ids_remain空?
 
 io1=>inputoutput: ids-remain
 io2=>inputoutput: proxy_list
-io3=>inputoutput: ids-got
+io3=>inputoutput: ids-got 
 
 st->op1(right)->io1->cond1 
 cond1(yes)->sub1->io2->cond2 
